@@ -1,0 +1,25 @@
+
+.introductie > h1{
+    padding: 20px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.introductie > div > img{
+    display: block;
+    width: 250px;
+    height: 350px;
+}
+
+.introductie > div > p{
+    display: block;
+    min-width: 20%;
+    font-size: large;
+    margin-left: 10px;
+}
+
+.introductie > div{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}

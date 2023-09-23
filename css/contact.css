@@ -1,0 +1,31 @@
+.formulier{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    margin-top: 10%;
+    margin-bottom: 4%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 70%;
+}
+
+input{
+    width: 60%;
+    margin: 0% auto 1%;
+}
+
+button{
+    margin-top: 2%;
+    color: var(--white);
+    background-color: var(--dark-blue);
+}
+
+button:hover{background-color: var(--light-blue);}
+
+button:active{background-color: var(--dark-blue);}
