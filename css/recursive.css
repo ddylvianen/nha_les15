@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+html{
+    height: 100%;
+}
+
 :root{
     --white: #FAFAFF;
     --black: #30343F;
@@ -12,7 +16,7 @@
 }
 
 body{
-    height: 100vh;
+    min-height: 100%;
     position: relative;
     background-color: var(--black);
 }
