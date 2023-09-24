@@ -7,8 +7,8 @@
 
 .introductie > div > img{
     display: block;
-    width: 250px;
-    height: 350px;
+    width: 35%;
+    height: auto;
 }
 
 .introductie > div > p{
